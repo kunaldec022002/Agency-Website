@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+.nav-bar
+{
+    position: sticky;
+    top: 0px;
+    z-index: 10px;
+
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0px !important;
+}
+
+.navbar-brand img
+{
+    height: 80px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+}
