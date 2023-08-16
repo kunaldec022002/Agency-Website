@@ -19,8 +19,8 @@ body
 
 .navbar
 {
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
-    padding: 0px !important;
+    background-color:  #a517ba;
+     padding: 0px !important;
 }
 
 .navbar-brand img
@@ -37,4 +37,57 @@ body
 .navbar-nav li a
 {
     color: #fff !important;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*------------Banner section----------*/
+
+#banner
+{
+    background-color:  #a517ba;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#banner a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.img-fluid
+{
+margin-top: -55px;
 }
